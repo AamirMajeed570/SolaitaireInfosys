@@ -1,0 +1,45 @@
+.container {
+    width: 32vw;
+    height: 80vh;
+    border: 2px solid saddlebrown;
+    margin: auto;
+    background-color: blue;
+    padding: 10px;
+
+}
+
+.form {
+    width: 30vw;
+    height: 80vh;
+    border: 2px solid red;
+    margin: auto;
+    background-color: #e0c7c7;
+}
+
+.form form h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.form form #input1,
+#input2,
+#input3,
+#input4,
+#input5,
+#input6 {
+    width: 60%;
+    margin-left: 4.9vw;
+    border-radius: 6px;
+    height: 37px;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#input6{
+    width: 30%;
+    margin-left: 10vw;
+    margin-top: 40px;
+    cursor: pointer;
+}
