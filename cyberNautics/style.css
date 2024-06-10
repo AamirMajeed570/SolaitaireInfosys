@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    background-color: rgba(227, 253, 249, 0.4) !important;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 30vw;
+    text-align: center;
+    padding: 12px 23px;
+}
+.right-side-bar{
+    max-width: 70vw;
+}
+.right-side-bar ul{
+    display: flex;
+    align-items: center;
+    padding: 12px 23px;
+}
+.right-side-bar ul li{
+    padding: 26px;
+    font-size: 27px;
+    font-weight: 200;
+}
+.right-side-bar ul li button{
+    height: 60px;
+    padding: 10px;
+    background: #54bb82 !important;
+    color: #fff !important;
+    font-size: 25px;
+    border-radius: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.section-container{
+    width: 100%;
+    height: 100%;
+    background: url('https://www.mysteryguides.co.uk/cdn/shop/files/Untitled_design_1_1_1_b48bb134-4eaf-4fea-afb8-79870ef01f32.webp?v=1683179647');
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+.section-container:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #0000004d;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20;
+    background-image: url('https://www.mysteryguides.co.uk/cdn/shop/files/Untitled_design_1_1_1_b48bb134-4eaf-4fea-afb8-79870ef01f32.webp?v=1683179647');
+}
